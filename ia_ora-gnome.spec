@@ -5,7 +5,7 @@
 
 Summary:        Ia Ora Mandriva GNOME theme
 Name:           ia_ora-gnome
-Version:        1.0.11
+Version:        1.0.12
 Release:        %mkrel 1
 License:        GPL
 Group: Graphical desktop/GNOME
