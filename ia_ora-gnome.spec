@@ -6,7 +6,7 @@
 Summary:        Ia Ora Mandriva GNOME theme
 Name:           ia_ora-gnome
 Version:        1.0.18
-Release:        %mkrel 1
+Release:        %mkrel 2
 License:        GPL
 Group: Graphical desktop/GNOME
 URL:            http://www.mandrivalinux.com/
@@ -21,7 +21,7 @@ Mandriva Ia Ora GNOME theme
 
 %package -n %{libname}
 Summary: GTK2 engine for Ia Ora theme
-Group: Graphical desktop/GNOME
+Group: System/Libraries
 Provides: ia_ora-gnome-gtk2-engine
 
 %description -n %{libname}
