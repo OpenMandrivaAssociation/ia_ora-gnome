@@ -60,10 +60,10 @@ fi
 
 %posttrans
 # create compatibility symlinks
-ln -f -s ../Ia\ Ora\ Smooth/metacity-1 %{buildroot}%{_datadir}/themes/Ia\ Ora\ One/metacity-1
-ln -f -s ../Ia\ Ora\ Smooth/gtk-2.0 %{buildroot}%{_datadir}/themes/Ia\ Ora\ One/gtk-2.0
-ln -f -s ../Ia\ Ora\ Arctic/metacity-1 %{buildroot}%{_datadir}/themes/Ia\ Ora\ Free/metacity-1
-ln -f -s ../Ia\ Ora\ Arctic/gtk-2.0 %{buildroot}%{_datadir}/themes/Ia\ Ora\ Free/gtk-2.0
+ln -f -s ../Ia\ Ora\ Smooth/metacity-1 %{_datadir}/themes/Ia\ Ora\ One/metacity-1
+ln -f -s ../Ia\ Ora\ Smooth/gtk-2.0 %{_datadir}/themes/Ia\ Ora\ One/gtk-2.0
+ln -f -s ../Ia\ Ora\ Arctic/metacity-1 %{_datadir}/themes/Ia\ Ora\ Free/metacity-1
+ln -f -s ../Ia\ Ora\ Arctic/gtk-2.0 %{_datadir}/themes/Ia\ Ora\ Free/gtk-2.0
 
 %preun 
 if [ "$1" = "0" ]; then
