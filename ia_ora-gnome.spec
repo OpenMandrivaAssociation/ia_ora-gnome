@@ -1,5 +1,6 @@
 # SOURCE IS STORED IN SVN (soft/theme/ia_ora-gnome), 
 # DO NOT PATCH IT
+%define _disable_lto 1
 
 %define libname %{_lib}ia_ora-gnome
 
