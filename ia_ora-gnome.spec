@@ -10,7 +10,7 @@ Version:	1.0.24
 Release:	17
 License:	GPLv2
 Group:		Graphical desktop/GNOME
-Url:		http://www.mandrivalinux.com/
+Url:		https://www.mandrivalinux.com/
 Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(gtk+-2.0)
 Requires:	gnome-icon-theme
